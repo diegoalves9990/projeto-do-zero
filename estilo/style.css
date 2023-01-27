@@ -1,0 +1,43 @@
+*{ /* as primeiras config da pagina para zerar todas as posicções dentro da pagina*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html, body{/* configuração da pagina padrão para receber as modificações*/
+    height: 100vh;
+    width: 100vw;
+}
+body{ /* adicionando o fundo da imagem*/
+    background-image: url(../pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main{ /*conteúdo principal da pagina fundo da pagina*/
+    height: 100vh;
+    position: relative;
+
+}
+section.telefone{ /*cofig do conteudo principal da pagina ( o telefone)*/
+    /*config de posicionamento*/
+    height: 627px;
+    width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*add virgula nas medidas*/
+    position: absolute;
+
+    /*config estetica*/
+    background-image: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 265px;
+    height: 470px;
+}
+    
+    
