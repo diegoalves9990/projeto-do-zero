@@ -46,6 +46,9 @@ section#rede-social img{ /*obedecendo a hierarquia de especificidade*/
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
     box-sizing: border-box;
 }
+img.altura{
+    margin-top: 200px;
+}
 section#rede-social{
     text-align: right;
 }
@@ -54,7 +57,6 @@ img:hover{ /*animação das imagens, o hover configura tudo após o mouse passar
     border: 2px solid rgba(255, 255, 255, 0.74);
     transform: translate( -3px, -3px)/*configurar em px*/;
     transition: .3s, .4s;
-
 
 }
 
